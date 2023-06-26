@@ -4,7 +4,7 @@ document.getElementById('username-form').addEventListener('submit', function(eve
   const username = document.getElementById('username').value.trim();
 
   // Construct the search URL
-  const searchUrl = `https://github.com/search?q=author%3A${username}+is%3Apr+is%3Apublic`;
+  const searchUrl = `https://github.com/search?q=author%3A${username}+is%3Apr+is%3Apublic+is%3Amerged`;
 
   // Refresh the page with the new search URL
   const resultList = document.getElementById('results-list');
